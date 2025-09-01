@@ -1,0 +1,84 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/*corpo*/
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+/*cabeçario*/
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+/*caixas*/
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+/*codigos da parte de contatos*/
+.contato {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contato h2 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.contato ul {
+  list-style: none;
+}
+
+.contato li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.contato a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
+/*botão para voltar*/
+.btn-voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #222;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background: #222;
+}
+/*rodape*/
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1rem;
+  margin-top: 40px;
+}
